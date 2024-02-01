@@ -1,0 +1,30 @@
+{
+    "UxmlGuid": "9b26898907900fc4cb91e6ded9340f98",
+    "UxmlPath": "Assets/Prefabs/UI/Character Selection.uxml",
+    "CanvasX": 390,
+    "CanvasY": 236,
+    "CanvasWidth": 391,
+    "CanvasHeight": 220,
+    "MatchGameView": true,
+    "ZoomScale": 0.75,
+    "PanOffset": {
+        "x": -228.025390625,
+        "y": -29.8878173828125
+    },
+    "ColorModeBackgroundOpacity": 1.0,
+    "ImageModeCanvasBackgroundOpacity": 1.0,
+    "CameraModeCanvasBackgroundOpacity": 1.0,
+    "EnableCanvasBackground": true,
+    "CanvasBackgroundMode": 2,
+    "CanvasBackgroundColor": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 255.0
+    },
+    "CanvasBackgroundImage": {
+        "instanceID": 0
+    },
+    "CanvasBackgroundImageScaleMode": 1,
+    "CanvasBackgroundCameraName": "Main Camera"
+}

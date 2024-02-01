@@ -1,0 +1,646 @@
+Using pre-set license
+Built from '2021.3/evg/staging/82bb020e-b03b1330/draft-0' branch; Version is '2021.3.16f1 (4016570cf34f) revision 4200023'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'pt' Physical Memory: 16233 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/victo/Heist
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+58387
+Successfully changed project path to: C:/Users/victo/Heist
+C:/Users/victo/Heist
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [5884] Host "[IP] 10.0.0.8 [Port] 0 [Flags] 2 [Guid] 2666173839 [EditorId] 2666173839 [Version] 1048832 [Id] WindowsEditor(7,Victor-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [5884] Host "[IP] 10.0.0.8 [Port] 0 [Flags] 2 [Guid] 2666173839 [EditorId] 2666173839 [Version] 1048832 [Id] WindowsEditor(7,Victor-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 109.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.16f1 (4016570cf34f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/victo/Heist/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12129 MB
+    Driver:   31.0.15.4633
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56828
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007760 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 91.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.565 seconds
+Domain Reload Profiling:
+	ReloadAssembly (565ms)
+		BeginReloadAssembly (76ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (397ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (78ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (257ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (47ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (92ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (79ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007106 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\victo\Heist\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\victo\Heist\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+OnLevelWasLoaded was found on PlayerBehaviour
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+OnLevelWasLoaded was found on CharacterBehaviour
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+OnLevelWasLoaded was found on GameManager
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+OnLevelWasLoaded was found on EnemyBehaviour
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.145 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1145ms)
+		BeginReloadAssembly (196ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (124ms)
+		EndReloadAssembly (858ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (198ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (489ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (372ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3679 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (92.2 KB). Loaded Objects now: 4174.
+Memory consumption went from 232.7 MB to 232.6 MB.
+Total: 3.377300 ms (FindLiveObjects: 0.219500 ms CreateObjectMapping: 0.142500 ms MarkObjects: 2.890300 ms  DeleteObjects: 0.123100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7179.768885 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d4.prefab
+  artifactKey: Guid(7871058fcd08e9244b4caf65cd38fbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d4.prefab using Guid(7871058fcd08e9244b4caf65cd38fbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e75b6744cde17808bc2b4a3be6e54ef8') in 0.164804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 92.089324 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d4.prefab
+  artifactKey: Guid(7871058fcd08e9244b4caf65cd38fbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d4.prefab using Guid(7871058fcd08e9244b4caf65cd38fbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e0bf00376a1ff5616b55fb0e2cf6dc2') in 0.027126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d10.prefab
+  artifactKey: Guid(689efbef81cf15944948454191638b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d10.prefab using Guid(689efbef81cf15944948454191638b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c10586807b9ba207166e1780990ce863') in 0.039621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d10-low.prefab
+  artifactKey: Guid(6213a91eff0ee42438d2d141cd155aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d10-low.prefab using Guid(6213a91eff0ee42438d2d141cd155aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3f349d6d2e9b42a491774acdd0316cb') in 0.013947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d8.prefab
+  artifactKey: Guid(6be2d49635464784a977e041fef4346a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d8.prefab using Guid(6be2d49635464784a977e041fef4346a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9374aac036e4d6c67264480bb840f3b6') in 0.020025 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008642 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\victo\Heist\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\victo\Heist\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.994 seconds
+Domain Reload Profiling:
+	ReloadAssembly (994ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (780ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (228ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (407ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (303ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+OnLevelWasLoaded was found on GameManager
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+OnLevelWasLoaded was found on CharacterBehaviour
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+OnLevelWasLoaded was found on EnemyBehaviour
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+OnLevelWasLoaded was found on PlayerBehaviour
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+Refreshing native plugins compatible for Editor in 3.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3639 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (86.9 KB). Loaded Objects now: 4185.
+Memory consumption went from 233.4 MB to 233.3 MB.
+Total: 3.183000 ms (FindLiveObjects: 0.236000 ms CreateObjectMapping: 0.184600 ms MarkObjects: 2.646300 ms  DeleteObjects: 0.115300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 10.376570 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d10.prefab
+  artifactKey: Guid(689efbef81cf15944948454191638b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d10.prefab using Guid(689efbef81cf15944948454191638b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6b5dc397424fd7acef45985d39e977e') in 0.062011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d6-low.prefab
+  artifactKey: Guid(27d2d2a6e75428f48bf88179c03d382a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d6-low.prefab using Guid(27d2d2a6e75428f48bf88179c03d382a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '522fb53171df6b16c52e856fed09305c') in 0.017298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d10-low.prefab
+  artifactKey: Guid(6213a91eff0ee42438d2d141cd155aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d10-low.prefab using Guid(6213a91eff0ee42438d2d141cd155aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '599106c949e869bd1ab947e0b8cab882') in 0.010077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d6.prefab
+  artifactKey: Guid(b32f14999ce2bd54db5a20e15d24b235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d6.prefab using Guid(b32f14999ce2bd54db5a20e15d24b235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e87e2b7b9e112e3d844ad31409661d0d') in 0.014340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.901044 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d20.prefab
+  artifactKey: Guid(0a001f1a75b6e064cb73dbc6cdbf2134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d20.prefab using Guid(0a001f1a75b6e064cb73dbc6cdbf2134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '518cc9ea79d7538f75d53b9c70a23381') in 0.020438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.778425 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d20.prefab
+  artifactKey: Guid(0a001f1a75b6e064cb73dbc6cdbf2134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d20.prefab using Guid(0a001f1a75b6e064cb73dbc6cdbf2134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5134d5dfdb8407ae924a4840bec04b76') in 0.016384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.010132 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d20.prefab
+  artifactKey: Guid(0a001f1a75b6e064cb73dbc6cdbf2134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d20.prefab using Guid(0a001f1a75b6e064cb73dbc6cdbf2134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '259da660e973c97af9acf66107f8d471') in 0.018762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.059501 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d20.prefab
+  artifactKey: Guid(0a001f1a75b6e064cb73dbc6cdbf2134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d20.prefab using Guid(0a001f1a75b6e064cb73dbc6cdbf2134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a6c5ef0f6f7c6cd29c74f8b513f4157') in 0.016971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.197129 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d20.prefab
+  artifactKey: Guid(0a001f1a75b6e064cb73dbc6cdbf2134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d20.prefab using Guid(0a001f1a75b6e064cb73dbc6cdbf2134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8265cc574e298425a5aa5467eb2009da') in 0.017662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.770276 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d12.prefab
+  artifactKey: Guid(dc333a4a51268684585ffe82f527a3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d12.prefab using Guid(dc333a4a51268684585ffe82f527a3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db4edcec59a264364a7ae0cccf1b102f') in 0.021564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.989228 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d12.prefab
+  artifactKey: Guid(dc333a4a51268684585ffe82f527a3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d12.prefab using Guid(dc333a4a51268684585ffe82f527a3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34d86cf4ad0778a00d6a9bacc3207464') in 0.020626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.167477 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d12.prefab
+  artifactKey: Guid(dc333a4a51268684585ffe82f527a3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d12.prefab using Guid(dc333a4a51268684585ffe82f527a3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '647621b7018222daf90937df1bafabc5') in 0.017517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.987788 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d12.prefab
+  artifactKey: Guid(dc333a4a51268684585ffe82f527a3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d12.prefab using Guid(dc333a4a51268684585ffe82f527a3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe319b126ff7835f7381c4e7c7a4bfd9') in 0.018454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.887852 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d20.prefab
+  artifactKey: Guid(0a001f1a75b6e064cb73dbc6cdbf2134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d20.prefab using Guid(0a001f1a75b6e064cb73dbc6cdbf2134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c55be668140f6f5c06a5128531aa06') in 0.014636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.367362 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d20.prefab
+  artifactKey: Guid(0a001f1a75b6e064cb73dbc6cdbf2134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d20.prefab using Guid(0a001f1a75b6e064cb73dbc6cdbf2134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ac1ef9ec4e0c99e33779abbc83d2e07') in 0.014014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.080953 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d12.prefab
+  artifactKey: Guid(dc333a4a51268684585ffe82f527a3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d12.prefab using Guid(dc333a4a51268684585ffe82f527a3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a723b0810743e501493b3c46cd76f9') in 0.018750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.240961 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d12.prefab
+  artifactKey: Guid(dc333a4a51268684585ffe82f527a3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d12.prefab using Guid(dc333a4a51268684585ffe82f527a3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70dad862d739755a3927ab7219fe1071') in 0.021763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.017758 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d12.prefab
+  artifactKey: Guid(dc333a4a51268684585ffe82f527a3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d12.prefab using Guid(dc333a4a51268684585ffe82f527a3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c6e8d667990ebba21144e5a35f3f700') in 0.018588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.899189 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d20.prefab
+  artifactKey: Guid(0a001f1a75b6e064cb73dbc6cdbf2134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d20.prefab using Guid(0a001f1a75b6e064cb73dbc6cdbf2134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b37f5926884d1fef380a4fbb6fbbc7c') in 0.014165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.177521 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d10.prefab
+  artifactKey: Guid(689efbef81cf15944948454191638b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d10.prefab using Guid(689efbef81cf15944948454191638b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44ee30f53963a7e0f9adc7135c3e928f') in 0.010168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.363246 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d10.prefab
+  artifactKey: Guid(689efbef81cf15944948454191638b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d10.prefab using Guid(689efbef81cf15944948454191638b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f7d77d2297382a3262a694e1158eb92') in 0.013243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.117703 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d10.prefab
+  artifactKey: Guid(689efbef81cf15944948454191638b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d10.prefab using Guid(689efbef81cf15944948454191638b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e3d60c5af32a3d1caf84d5805ce18a7') in 0.008280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.647242 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d10.prefab
+  artifactKey: Guid(689efbef81cf15944948454191638b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d10.prefab using Guid(689efbef81cf15944948454191638b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e32bad301cc5e351ad2fcd4d60a658cb') in 0.007901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.769084 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d10-low.prefab
+  artifactKey: Guid(6213a91eff0ee42438d2d141cd155aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d10-low.prefab using Guid(6213a91eff0ee42438d2d141cd155aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4cc1f1b95fc3a50cfef56597e362976') in 0.144214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.393451 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d10-low.prefab
+  artifactKey: Guid(6213a91eff0ee42438d2d141cd155aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d10-low.prefab using Guid(6213a91eff0ee42438d2d141cd155aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbd973cbf17f477bb20d5d73e21a9dd5') in 0.008549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.453423 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d10-low.prefab
+  artifactKey: Guid(6213a91eff0ee42438d2d141cd155aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d10-low.prefab using Guid(6213a91eff0ee42438d2d141cd155aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87bf961dcff6a515139490cf7f78aaf9') in 0.012592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.211550 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d10-low.prefab
+  artifactKey: Guid(6213a91eff0ee42438d2d141cd155aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d10-low.prefab using Guid(6213a91eff0ee42438d2d141cd155aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '317b11d3597d1a499038b1f3b9578bd7') in 0.007776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.448089 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d8.prefab
+  artifactKey: Guid(6be2d49635464784a977e041fef4346a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d8.prefab using Guid(6be2d49635464784a977e041fef4346a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c82a981d8de7a39e5bb921db4c308b') in 0.023950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.082951 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d8.prefab
+  artifactKey: Guid(6be2d49635464784a977e041fef4346a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d8.prefab using Guid(6be2d49635464784a977e041fef4346a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a26d3fa8846b1657397e6ad38babb8c6') in 0.043533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.781059 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d8.prefab
+  artifactKey: Guid(6be2d49635464784a977e041fef4346a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d8.prefab using Guid(6be2d49635464784a977e041fef4346a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '904fa4788f5706f229a7461b231b573b') in 0.019619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.537986 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d8.prefab
+  artifactKey: Guid(6be2d49635464784a977e041fef4346a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d8.prefab using Guid(6be2d49635464784a977e041fef4346a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '396b10b33d5b0adae8f221bb540254af') in 0.018143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.509323 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d6.prefab
+  artifactKey: Guid(b32f14999ce2bd54db5a20e15d24b235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d6.prefab using Guid(b32f14999ce2bd54db5a20e15d24b235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad28bc544aed43e1029d23995f6eafcc') in 0.017919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.911237 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d6.prefab
+  artifactKey: Guid(b32f14999ce2bd54db5a20e15d24b235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d6.prefab using Guid(b32f14999ce2bd54db5a20e15d24b235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbc489b7659596b718abc68b1f0c05ad') in 0.017229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.540645 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d6.prefab
+  artifactKey: Guid(b32f14999ce2bd54db5a20e15d24b235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d6.prefab using Guid(b32f14999ce2bd54db5a20e15d24b235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d43ea5e862f62f6ff1c969e73251ec') in 0.010897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.833758 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d6.prefab
+  artifactKey: Guid(b32f14999ce2bd54db5a20e15d24b235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d6.prefab using Guid(b32f14999ce2bd54db5a20e15d24b235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70376080971a0e80492ea14875b887de') in 0.015696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.818600 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d6-low.prefab
+  artifactKey: Guid(27d2d2a6e75428f48bf88179c03d382a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d6-low.prefab using Guid(27d2d2a6e75428f48bf88179c03d382a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bd9c64a992b9340f604e202b870b395') in 0.017322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.133184 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d6-low.prefab
+  artifactKey: Guid(27d2d2a6e75428f48bf88179c03d382a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d6-low.prefab using Guid(27d2d2a6e75428f48bf88179c03d382a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e5788403b9e55ff268c31766906017') in 0.011099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.026545 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d6-low.prefab
+  artifactKey: Guid(27d2d2a6e75428f48bf88179c03d382a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d6-low.prefab using Guid(27d2d2a6e75428f48bf88179c03d382a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40995d920d0e28bd432300d895d02219') in 0.010960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.795272 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d6-low.prefab
+  artifactKey: Guid(27d2d2a6e75428f48bf88179c03d382a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d6-low.prefab using Guid(27d2d2a6e75428f48bf88179c03d382a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9682da56f3adfd1c414bbdab6821ffa1') in 0.011030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.354072 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d4.prefab
+  artifactKey: Guid(7871058fcd08e9244b4caf65cd38fbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d4.prefab using Guid(7871058fcd08e9244b4caf65cd38fbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd696898b22dafa61809fb738266e2879') in 0.021591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.320265 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d4.prefab
+  artifactKey: Guid(7871058fcd08e9244b4caf65cd38fbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d4.prefab using Guid(7871058fcd08e9244b4caf65cd38fbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a45f075526b0140c88d34239def165d') in 0.014353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.677385 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d4.prefab
+  artifactKey: Guid(7871058fcd08e9244b4caf65cd38fbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d4.prefab using Guid(7871058fcd08e9244b4caf65cd38fbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5bd68d1e0691999b0055dc8d7d6b9f4') in 0.014271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.994909 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d4.prefab
+  artifactKey: Guid(7871058fcd08e9244b4caf65cd38fbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d4.prefab using Guid(7871058fcd08e9244b4caf65cd38fbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f8624fa235284afe25381e5a9c67862') in 0.015461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.522776 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d4.prefab
+  artifactKey: Guid(7871058fcd08e9244b4caf65cd38fbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d4.prefab using Guid(7871058fcd08e9244b4caf65cd38fbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f8352ae587bae7969cedefbdfdf2480') in 0.023351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d12.prefab
+  artifactKey: Guid(dc333a4a51268684585ffe82f527a3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d12.prefab using Guid(dc333a4a51268684585ffe82f527a3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf078dffdef24993899f5e1e6ced7e16') in 0.062281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d8.prefab
+  artifactKey: Guid(6be2d49635464784a977e041fef4346a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d8.prefab using Guid(6be2d49635464784a977e041fef4346a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '061c51de3dd4af1cc29ad82555de0611') in 0.019374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d6.prefab
+  artifactKey: Guid(b32f14999ce2bd54db5a20e15d24b235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d6.prefab using Guid(b32f14999ce2bd54db5a20e15d24b235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd217622adc7d319f163db6c73b5e166') in 0.013964 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (84.2 KB). Loaded Objects now: 4186.
+Memory consumption went from 161.6 MB to 161.5 MB.
+Total: 3.404800 ms (FindLiveObjects: 0.228000 ms CreateObjectMapping: 0.158700 ms MarkObjects: 2.913300 ms  DeleteObjects: 0.104300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 77.032514 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d4.prefab
+  artifactKey: Guid(7871058fcd08e9244b4caf65cd38fbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d4.prefab using Guid(7871058fcd08e9244b4caf65cd38fbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94603865f811b7934eb364d70e11943b') in 0.025761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d12.prefab
+  artifactKey: Guid(dc333a4a51268684585ffe82f527a3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d12.prefab using Guid(dc333a4a51268684585ffe82f527a3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be70956dbfc636251082d7a26f2f30e9') in 0.037553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d10.prefab
+  artifactKey: Guid(689efbef81cf15944948454191638b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d10.prefab using Guid(689efbef81cf15944948454191638b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9904131e2d68a547c2b2861b20e5c64f') in 0.008481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d10-low.prefab
+  artifactKey: Guid(6213a91eff0ee42438d2d141cd155aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d10-low.prefab using Guid(6213a91eff0ee42438d2d141cd155aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aa2f502ac173f1b4b740b32161a3fc4') in 0.009266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d20.prefab
+  artifactKey: Guid(0a001f1a75b6e064cb73dbc6cdbf2134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d20.prefab using Guid(0a001f1a75b6e064cb73dbc6cdbf2134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa4f9090faaa7db0f5d449bf510696bf') in 0.015507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d8.prefab
+  artifactKey: Guid(6be2d49635464784a977e041fef4346a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d8.prefab using Guid(6be2d49635464784a977e041fef4346a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e03ebb69a5f20141ee0bc9093b2ad643') in 0.017409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.925474 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d4.prefab
+  artifactKey: Guid(7871058fcd08e9244b4caf65cd38fbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d4.prefab using Guid(7871058fcd08e9244b4caf65cd38fbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dfe066c2863f38b1ed8ad889e4dd902') in 0.023979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d10.prefab
+  artifactKey: Guid(689efbef81cf15944948454191638b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d10.prefab using Guid(689efbef81cf15944948454191638b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35fe746a32b82644ba5873d1e0ecbdc3') in 0.019699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d10-low.prefab
+  artifactKey: Guid(6213a91eff0ee42438d2d141cd155aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d10-low.prefab using Guid(6213a91eff0ee42438d2d141cd155aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '103dfe124064572284bfeb7c97a84785') in 0.013343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Photon Unity Networking/Resources/Prefabs/d20.prefab
+  artifactKey: Guid(0a001f1a75b6e064cb73dbc6cdbf2134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Resources/Prefabs/d20.prefab using Guid(0a001f1a75b6e064cb73dbc6cdbf2134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afdea8202c49f945242832018e568f92') in 0.042173 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

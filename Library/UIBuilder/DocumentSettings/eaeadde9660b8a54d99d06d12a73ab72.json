@@ -1,0 +1,30 @@
+{
+    "UxmlGuid": "eaeadde9660b8a54d99d06d12a73ab72",
+    "UxmlPath": "Assets/Prefabs/UI/Inventory.uxml",
+    "CanvasX": 0,
+    "CanvasY": 0,
+    "CanvasWidth": 318,
+    "CanvasHeight": 179,
+    "MatchGameView": false,
+    "ZoomScale": 0.75,
+    "PanOffset": {
+        "x": -324.818115234375,
+        "y": 10.7392578125
+    },
+    "ColorModeBackgroundOpacity": 1.0,
+    "ImageModeCanvasBackgroundOpacity": 1.0,
+    "CameraModeCanvasBackgroundOpacity": 1.0,
+    "EnableCanvasBackground": false,
+    "CanvasBackgroundMode": 0,
+    "CanvasBackgroundColor": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 255.0
+    },
+    "CanvasBackgroundImage": {
+        "instanceID": 0
+    },
+    "CanvasBackgroundImageScaleMode": 1,
+    "CanvasBackgroundCameraName": ""
+}
