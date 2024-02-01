@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 180e9e17f1131d04b880c05be17796da, type: 3}
+  m_Name: Bennelli M4
+  m_EditorClassIdentifier: 
+  itemType: 0
+  itemName: Bennelli M4
+  itemImg: {fileID: 0}
+  itemPrefab: {fileID: 1236257789494122, guid: 8b0b86b42def11849a8eba21f4a6a684, type: 3}
+  equipAudio: {fileID: 8300000, guid: b7069075fe7d571408760bc0242803f3, type: 3}
+  useAudio: {fileID: 8300000, guid: b086d36988c959846b41066035de5eae, type: 3}
+  diceAmount: 2
+  diceType: 10
+  totalAmmo: 0
+  magazineCapacity: 0
+  currentAmmo: 0

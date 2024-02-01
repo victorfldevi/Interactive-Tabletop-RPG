@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b33fdf1f78721244b86c49c5d9dd2a88
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - pfDamagePopup: {fileID: 8669086702386474091, guid: 66b48d7767ad6b7438110ff2ab558f80,
+      type: 3}
+  - text: {fileID: 4042404746358525807, guid: 66b48d7767ad6b7438110ff2ab558f80, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

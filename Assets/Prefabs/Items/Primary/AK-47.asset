@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 180e9e17f1131d04b880c05be17796da, type: 3}
+  m_Name: AK-47
+  m_EditorClassIdentifier: 
+  itemType: 0
+  itemName: AK-47
+  itemImg: {fileID: 21300000, guid: 17cb00e6df3ef6d46be088093184bff5, type: 3}
+  itemPrefab: {fileID: 1487774384131766, guid: ee329c3cd08e58645834d20702d7f6c6, type: 3}
+  equipAudio: {fileID: 8300000, guid: b7069075fe7d571408760bc0242803f3, type: 3}
+  useAudio: {fileID: 8300000, guid: 6be81ca524dcd454fa846ac0a4f074be, type: 3}
+  diceAmount: 3
+  diceType: 6
+  totalAmmo: 60
+  magazineCapacity: 30
+  currentAmmo: 30

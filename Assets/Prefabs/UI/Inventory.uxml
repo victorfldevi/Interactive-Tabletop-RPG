@@ -1,0 +1,49 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Prefabs/UI/Containers.uss?fileID=7433441132597879392&amp;guid=8a8b6f10ac7e9844fa8e871a22a73db8&amp;type=3#Containers" />
+    <ui:VisualElement name="Inventory-Container" class="container" style="height: 142px; width: 598px; translate: 98px 68px; align-items: center; justify-content: center; flex-direction: row; position: absolute;">
+        <ui:Button display-tooltip-when-elided="true" name="0-Button" style="align-items: center; justify-content: space-between; height: 95px; width: 95px; background-color: rgb(180, 180, 180); border-left-color: rgb(135, 135, 135); border-right-color: rgb(135, 135, 135); border-top-color: rgb(135, 135, 135); border-bottom-color: rgb(135, 135, 135); border-left-width: 5px; border-right-width: 5px; border-top-width: 5px; border-bottom-width: 5px; border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0;">
+            <ui:GroupBox name="0-Button-Effects" style="width: 84px; align-items: stretch; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; position: absolute; bottom: 60px; translate: 0 60px; visibility: visible;">
+                <ui:VisualElement name="Effect-Equipped" style="height: 22px; width: 84px; background-color: rgb(217, 217, 217); justify-content: center; align-items: center; flex-direction: column; display: flex; visibility: hidden;">
+                    <ui:Label text="Equipado" display-tooltip-when-elided="true" name="Effect-Equipped-Text" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Effect-Amount" style="height: 22px; width: 24px; background-color: rgb(217, 217, 217); justify-content: center; align-items: center; flex-direction: column; display: flex; visibility: hidden; position: absolute;">
+                    <ui:Label text="0" display-tooltip-when-elided="true" name="Effect-Amount-Text" />
+                </ui:VisualElement>
+            </ui:GroupBox>
+        </ui:Button>
+        <ui:Button display-tooltip-when-elided="true" name="1-Button" style="align-items: center; justify-content: space-between; height: 95px; width: 95px; background-color: rgb(180, 180, 180); border-left-color: rgb(135, 135, 135); border-right-color: rgb(135, 135, 135); border-top-color: rgb(135, 135, 135); border-bottom-color: rgb(135, 135, 135); border-left-width: 5px; border-right-width: 5px; border-top-width: 5px; border-bottom-width: 5px; border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0;">
+            <ui:GroupBox name="1-Button-Effects" style="width: 84px; align-items: stretch; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; position: absolute; bottom: 60px; translate: 0 60px;">
+                <ui:VisualElement name="Effect-Equipped" style="height: 22px; width: 84px; background-color: rgb(217, 217, 217); justify-content: center; align-items: center; flex-direction: column; display: flex; visibility: hidden;">
+                    <ui:Label text="Equipado" display-tooltip-when-elided="true" name="Effect-Equipped-Text" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Effect-Amount" style="height: 22px; width: 24px; background-color: rgb(217, 217, 217); justify-content: center; align-items: center; flex-direction: column; display: flex; visibility: hidden; position: absolute;">
+                    <ui:Label text="0" display-tooltip-when-elided="true" name="Effect-Amount-Text" />
+                </ui:VisualElement>
+            </ui:GroupBox>
+        </ui:Button>
+        <ui:Button display-tooltip-when-elided="true" name="2-Button" style="align-items: center; justify-content: space-between; height: 95px; width: 95px; background-color: rgb(180, 180, 180); border-left-color: rgb(135, 135, 135); border-right-color: rgb(135, 135, 135); border-top-color: rgb(135, 135, 135); border-bottom-color: rgb(135, 135, 135); border-left-width: 5px; border-right-width: 5px; border-top-width: 5px; border-bottom-width: 5px; border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0;">
+            <ui:GroupBox name="2-Button-Effects" style="width: 84px; align-items: stretch; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; position: absolute; bottom: 60px; translate: 0 60px;">
+                <ui:VisualElement name="Effect-Equipped" style="height: 22px; width: 84px; background-color: rgb(217, 217, 217); justify-content: center; align-items: center; flex-direction: column; display: flex; visibility: hidden;">
+                    <ui:Label text="Equipado" display-tooltip-when-elided="true" name="Effect-Equipped-Text" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Effect-Amount" style="height: 22px; width: 24px; background-color: rgb(217, 217, 217); justify-content: center; align-items: center; flex-direction: column; display: flex; visibility: hidden; position: absolute;">
+                    <ui:Label text="0" display-tooltip-when-elided="true" name="Effect-Amount-Text" />
+                </ui:VisualElement>
+            </ui:GroupBox>
+        </ui:Button>
+        <ui:Button display-tooltip-when-elided="true" name="3-Button" style="align-items: center; justify-content: space-between; height: 95px; width: 95px; background-color: rgb(180, 180, 180); border-left-color: rgb(135, 135, 135); border-right-color: rgb(135, 135, 135); border-top-color: rgb(135, 135, 135); border-bottom-color: rgb(135, 135, 135); border-left-width: 5px; border-right-width: 5px; border-top-width: 5px; border-bottom-width: 5px; border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0;">
+            <ui:GroupBox name="3-Button-Effects" style="width: 84px; align-items: stretch; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; position: absolute; bottom: 60px; translate: 0 60px;">
+                <ui:VisualElement name="Effect-Equipped" style="height: 22px; width: 84px; background-color: rgb(217, 217, 217); justify-content: center; align-items: center; flex-direction: column; display: flex; visibility: hidden;">
+                    <ui:Label text="Equipado" display-tooltip-when-elided="true" name="Effect-Equipped-Text" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Effect-Amount" style="height: 22px; width: 24px; background-color: rgb(217, 217, 217); justify-content: center; align-items: center; flex-direction: column; display: flex; visibility: hidden; position: absolute;">
+                    <ui:Label text="0" display-tooltip-when-elided="true" name="Effect-Amount-Text" />
+                </ui:VisualElement>
+            </ui:GroupBox>
+        </ui:Button>
+        <ui:Button display-tooltip-when-elided="true" name="Back-Button" style="align-items: center; justify-content: space-around; height: 80%; width: 20%; background-color: rgba(88, 88, 88, 0); border-left-color: rgba(255, 255, 255, 0); border-right-color: rgba(255, 255, 255, 0); border-top-color: rgba(255, 255, 255, 0); border-bottom-color: rgba(255, 255, 255, 0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0;">
+            <ui:IMGUIContainer name="Back-Img" style="height: 66%; width: 66%; justify-content: flex-start; align-items: stretch; background-image: url(&apos;project://database/Assets/64%20flat%20icons/png/64px/Modifiers_BoostSpeed.png?fileID=2800000&amp;guid=b6c319f621431374fbe42955944e2d17&amp;type=3#Modifiers_BoostSpeed&apos;);" />
+            <ui:Label text="Voltar" display-tooltip-when-elided="true" name="Back_Text" style="-unity-font-definition: none; -unity-font: url(&apos;project://database/Assets/TextMesh%20Pro/Examples%20&amp;%20Extras/Fonts/Anton.ttf?fileID=12800000&amp;guid=997a43b767814dd0a7642ec9b78cba41&amp;type=3#Anton&apos;);" />
+        </ui:Button>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 180e9e17f1131d04b880c05be17796da, type: 3}
+  m_Name: M82 Sniper
+  m_EditorClassIdentifier: 
+  itemType: 0
+  itemName: M82 Sniper
+  itemImg: {fileID: 21300000, guid: 64bf4aa120a936d4f9e26fa952a6ba6f, type: 3}
+  itemPrefab: {fileID: 4165770523757623383, guid: ad7f6abb782c2e74e90c5ef36bdb6bd3,
+    type: 3}
+  equipAudio: {fileID: 8300000, guid: b7069075fe7d571408760bc0242803f3, type: 3}
+  useAudio: {fileID: 8300000, guid: a755881bdbf066c469d252b97a866cb4, type: 3}
+  diceAmount: 1
+  diceType: 20
+  totalAmmo: 0
+  magazineCapacity: 0
+  currentAmmo: 0
